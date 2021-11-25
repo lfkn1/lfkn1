@@ -1,0 +1,181 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style> 
+.container {
+  max-width: 100%;
+}
+.first {
+  width: 600px;
+  height: 280px;
+}
+
+body {
+  background-color: black;
+  background-size: 1300px 1100px;
+  border: 8px solid red;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+div,
+img,
+section {
+  border: 1px solid;
+}
+
+#conteneur {
+  position: relative;
+  height: 350px;
+  width: 550px;
+  margin: 0 auto;
+}
+#conteneur img {
+  position: absolute;
+  left: 0;
+}
+@keyframes fondu-in-out {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#conteneur img.image-de-dessus {
+  animation-name: fondu-in-out;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
+.quizz {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.quizz:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+</style> 
+<title>Title of the document</title>
+</head>
+
+<body>
+bonjour à tous
+
+<section class="container border rounded m-3 mx-auto">
+  <center>
+    <h2 class="h-8 font-bold text-3xs text-purple-800">Mon super-blog: Stranger things</h2>
+  </center>
+  <div id='conteneur'>
+    <img class="first border rounded-full m-4 mx-auto p-4 opacity-80 " src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flarepublica.pe%2Fresizer%2F-IQzGEI3H69Jlgjhr9XiFBK4syg%3D%2F1250x735%2Ftop%2Fsmart%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fgruporepublica%2FNWO5QDI7O5GTTNJSP72RNQTTSY.jpg&f=1&nofb=1" alt="">
+    <img class="first image-de-dessus border rounded-full m-4 mx-auto p-4" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Focs-pl.oktawave.com%2Fv1%2FAUTH_2887234e-384a-4873-8bc5-405211db13a2%2Fsplay%2F2020%2F03%2Fstranger-things-4-kiedy-premiera-david-harbour.jpg&f=1&nofb=1">
+
+  </div>
+</section>
+<section class="container border rounded m-4 mx-auto flex justify-center items-center grid grid-cols-1">
+  <center>
+    <h2 class=" font-bold text-3xs text-purple-800 p-2">Résumés des Stranger Things</h2>
+  </center>
+  <div class="border mx-auto w-3/4  border-purple-500"></div>
+  <h1 class="text-sm text-purple-500 mx-auto p-2">Stranger Things 1</h1>
+  <p class="text-sm text-gray-500 mx-auto p-8">En 1983, à Hawkins, petite ville des États-Unis, le jeune Will Byers disparaît dans d’étranges circonstances après avoir passé la soirée avec ses amis Dustin, Lucas et Mike. Les trois jeunes garçons partent à sa recherche. Sur leur route, ils rencontrent une jeune fille prénommée Onze. Le chef de la police Jim Hopper suit une autre piste. L’officier décide d’enquêter sur le Laboratoire National d’Hawkins, qu’il soupçonne d’être impliqué dans la disparition du garçon. Pire, d’être à l’origine de phénomènes anormaux. Des choses terrifiantes se trament. Au-delà du naturel. </p>
+  <div class="border mx-auto w-3/4  border-purple-500"></div>
+  <h1 class="text-sm text-purple-500 mx-auto p-2">Stranger Things 2</h1>
+  <p class="text-sm text-gray-500 mx-auto p-8">Une année est passée depuis le retour de Will Byers. La petite ville commence à peine à retrouver son calme. De son côté, Mike tente toujours de retrouver Onze. Mais depuis quelques jours, Will, assailli de terribles visions, n’est plus le même. Son passage dans l’autre monde ne l’a pas laissé indemne. La famille de Will, ses amis, et le shérif Hopper commencent à comprendre que les phénomènes surnaturels, à Hawkins, sont loin d’être terminés.</p>
+  <div class="border mx-auto w-3/4  border-purple-500"></div>
+  <h1 class="text-sm text-purple-500 mx-auto p-2">Stranger Things 3</h1>
+  <p class="text-sm text-gray-500 mx-auto p-8">Nous sommes en 1985 à Hawkins, Indiana, et l'été se réchauffe. L'école est finie, il y a un tout nouveau centre commercial en ville et l'équipe de Hawkins est à l'aube de l'âge adulte. La romance s'épanouit et complique la dynamique du groupe, et ils devront trouver comment grandir sans se séparer.
+
+    Pendant ce temps, le danger se profile. En juin, une équipe de scientifiques soviétiques mène des tests pour une machine capable d'ouvrir un portail vers le Monde à l'Envers. Devant leur échec, le général en charge leur laisse un an. Eleven et ses amis se rappellent que le mal ne finit jamais ; ça évolue. Maintenant, ils devront s'unir pour survivre et se rappeler que l'amitié est toujours plus forte que la peur.</p>
+  <div class="border mx-auto w-2/4 border-purple-500"></div>
+
+</section>
+
+<section class="container border rounded m-4 mx-auto">
+  <h2 class="font-bold text-3xs text-purple-800 p-6 flex justify-center">Les différents mondes</h2>
+  <div class="flex justify-around">
+    <div class="">
+      <div class="">
+        <img class="h-32 border rounded" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.RLlg_8VKDzF2IYHVHc8cwwHaD4%26pid%3DApi&f=1" alt="">
+      </div>
+      <p class="text-sm text-gray-500">Bienvenue dans le monde d'Hawkins</p>
+      <a class="text-sm text-purple-500" href="https://strangerthings.fandom.com/fr/wiki/Hawkins">Hawkins</a>
+    </div>
+    <div class="">
+      <img class="h-32 border rounded" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.VAfQrioQR8Mw5-gNIIWWVwHaDs%26pid%3DApi&f=1" alt="">
+      </d>
+      <p class="text-sm text-gray-500">Entrez dans l'upside down</p>
+      <a class="text-sm text-purple-500" href="https://strangerthings.fandom.com/wiki/The_Upside_Down">Upside down</a>
+    </div>
+  </div>
+</section>
+<section class="container border rounded flex justify-center">
+  <ul class=" list-disc list-inside text-sm text-gray-500 p-8">
+    <p class="font-bold text-3xs text-purple-800 flex justify-center p-6 border border-red-500">Le casting de la saison 4:</p>
+    <div class="border border-red-500 p-3">
+      <li>Winona Ryder as Joyce Byers</li>
+      <li>David Harbour as Jim Hopper</li>
+      <li>Finn Wolfhard as Mike Wheeler</li>
+      <li>Millie Bobby Brown as Eleven</li>
+      <li>Gaten Matarazzo as Dustin Henderson</li>
+      <li>Caleb McLaughlin as Lucas Sinclair</li>
+      <li>Noah Schnapp as Will Byers</li>
+      <li>Sadie Sink as Max Mayfield</li>
+      <li>Natalia Dyer as Nancy Wheeler</li>
+      <li>Charlie Heaton as Jonathan Byers</li>
+      <li>Joe Keery as Steve Harrington</li>
+      <li>Maya Hawke as Robin Buckley</li>
+      <li>Priah Ferguson as Erica Sinclair</li>
+      <li>Cara Buono as Karen Wheeler</li>
+      <li>Brett Gelman as Murray Bauman</li>
+      <li>Jamie Campbell Bower as Peter Ballard</li>
+      <li>Eduardo Franco as Argyle</li>
+      <li>Joseph Quinn as Eddie Munson</li>
+
+  </ul>
+  </div>
+
+</section>
+<div class="border mx-auto w-3/4 border-purple-500"></div>
+<section class="container border rounded m-4 mx-auto">
+  <h2 class="flex justify-center h-8 font-bold text-3xs text-purple-800 p-4">Teaser de la saison 4 de Stranger Things:</h2>
+  <p class="text-sm text-gray-500"></p>
+
+  <iframe class="rounded mx-auto m-6" width="460" height="215" src="https://www.youtube.com/embed/7OQEsMEdpVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<div class="border mx-auto w-3/4 border-purple-500"></div>
+<section class="container border rounded m-3 mx-auto">
+  <h2 class="h-8 font-bold text-3xs text-purple-800 p-4 flex justify-center">Etes-vous un vrai fan de Stranger Things ?</h2>
+  <div class="flex justify-center m-4 border rounded"><a class="quizz transform hover:scale-110 motion-reduce:transform-none opacity-90 rounded mx-20 my-5 text-center p-4 shadow decoration-clone bg-gradient-to-b from-blue-500 to-purple-500 text-sm text-yellow-100" href="https://www.latoquiz.com/cinema/quiz-stranger-things/">Cliquez ici !</a></div </section>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html> 
